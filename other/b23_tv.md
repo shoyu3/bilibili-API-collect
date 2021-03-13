@@ -10,6 +10,18 @@
 
 *请求方式：POST*
 
+**正文参数（ application/x-www-form-urlencoded ）：**
+
+| 参数名   | 类型 | 内容         | 必要性 | 备注                          |
+| -------- | ---- | ------------ | ------ | ----------------------------- |
+| build | num  | 四位数字 | 必要 | 大于9300的值均可，如9301, 9320, 9330 |
+| bvuid | str  | 32位数字母与数字的组合 | 必要 | 具体含义未知，如qp92wvbiiwercf5au381g1bzajou85hg |
+| oid | str | B站站内链接 | 必要 | 必须是B站站内链接 |
+| platform | str | ios或android | 必要 | 分享平台 |
+| share_channel | str | COPY | 必要 |      |
+| share_id | str | public.webview.0.0.pv或main.ugc-video-detail.0.0.pv | 必要 | 一般选择public.webview.0.0.pv，可以生成所有站内链接 |
+| share_mode | num | 3 | 必要 | 似乎大于0的数字均可 |
+
 **json回复：**
 
 根对象：
