@@ -14,7 +14,7 @@
 
 | 参数名   | 类型 | 内容         | 必要性 | 备注                          |
 | -------- | ---- | ------------ | ------ | ----------------------------- |
-| build | num  | 四位数字 | 必要 | 大于9300的值均可，如9301, 9320, 9330 |
+| build | num  | 9331 | 必要 | 大于9300的值均可，如9301, 9320, 9330 |
 | bvuid | str  | 32位字母与数字的组合 | 必要 | 具体含义未知，如qp92wvbiiwercf5au381g1bzajou85hg |
 | oid | str | B站站内链接 | 必要 | 必须是B站站内链接 |
 | platform | str | ios或android | 必要 | 分享平台 |
@@ -45,7 +45,13 @@
 
 ```shell
 curl 'https://api.bilibili.com/x/share/click'\
---data-urlencode 'oauthKey=c3bd5286a2b40a822f5f60e9bf3f602e'
+--data-urlencode 'build=9331'\
+--data-urlencode 'bvuid=qp92wvbiiwercf5au381g1bzajou85hg'\
+--data-urlencode 'oid=https://www.bilibili.com/'\
+--data-urlencode 'platform=android'\
+--data-urlencode 'share_channel=COPY'\
+--data-urlencode 'share_id=public.webview.0.0.pv'\
+--data-urlencode 'share_mode=3'
 ```
 
 <details>
