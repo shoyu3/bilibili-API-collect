@@ -6,7 +6,7 @@
 
 ## 获取b23.tv短链
 
-> http://api.bilibili.com/x/report/click/now 
+> https://api.bilibili.com/x/share/click
 
 *请求方式：POST*
 
