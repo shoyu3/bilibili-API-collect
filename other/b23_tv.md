@@ -60,12 +60,12 @@ curl 'https://api.bilibili.com/x/share/click'\
 
 ```json
 {
-	"code": 0,
-	"message": "0",
-	"ttl": 1,
-	"data": {
-		"content": "https://b23.tv/El8pMD"
-	}
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "content": "https://b23.tv/El8pMD"
+    }
 }
 ```
 
