@@ -42,10 +42,11 @@
 
 **示例：**
 
+生成`https://www.bilibili.com/`的短链
+
 ```shell
-
-curl 'http://api.bilibili.com/x/report/click/now'
-
+curl 'https://api.bilibili.com/x/share/click'\
+--data-urlencode 'oauthKey=c3bd5286a2b40a822f5f60e9bf3f602e'
 ```
 
 <details>
@@ -53,23 +54,14 @@ curl 'http://api.bilibili.com/x/report/click/now'
 <summary>查看响应示例：</summary>
 
 ```json
-
 {
-
-    "code": 0,
-
-    "message": "0",
-
-    "ttl": 1,
-
-    "data": {
-
-        "now": 1592666471
-
-    }
-
+	"code": 0,
+	"message": "0",
+	"ttl": 1,
+	"data": {
+		"content": "https://b23.tv/El8pMD"
+	}
 }
-
 ```
 
 </details>
