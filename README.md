@@ -1,36 +1,3 @@
-<!--<p align="center">
-    <img src="imgs/Mylogo.png" width="250" height="200">
-</p>
-<h1 align="center">哔哩哔哩-API收集整理</h1>
-<p align="center">
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/issues" style="text-decoration:none">
-        <img src="https://img.shields.io/github/issues/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub issues"/>
-    </a>
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/stargazers" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/stars/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub stars"/>
-    </a>
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/network" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/forks/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub forks"/>
-    </a>
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/LICENSE" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/license/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub license"/>
-    </a>
-</p>
-
-
-<h3 align="center">野生API文档</h3> 
-<h3 align="center">不断更新中....</h3> 
-本项目旨在对B站web端、移动端以及TV端散落在世界各地的野生api进行收集整理，研究使用方法并对其进行说明，运用了黑箱法、控制变量法、js逆向分析法、apk拆包及反编译法、网络抓包法等研究办法
-
-所有api均为标准http协议，返回数据大都为json或protobuf
-
-PS：所有http协议地址均可使用https，文档中为了统一写作`http`，为了数据安全建议所有接口使用https
-
-小小的Demo：~~av583785685~~[视频失效原因](https://shakaianee.top/archives/56/)（[Youtube备链](https://www.youtube.com/watch?v=nfF91Z6fqGk)）
-
-联动项目：[Hsury/Bilibili-Toolkit](https://github.com/Hsury/Bilibili-Toolkit)
--->
-
 **声明**：
 
 1. 本项目遵守CC-BY-4.0协议，如需转载请标明作者。
@@ -195,10 +162,6 @@ PS：所有http协议地址均可使用https，文档中为了统一写作`http`
 - [个性装扮](garb)
   - [APP主题](garb/skin.md)√
   - [主题色](garb/color.md)√
-
-B站专栏同步推出[《B站api研究记》](https://www.bilibili.com/read/readlist/rl207146)系列（更新状态：咕咕......），~~欢迎关注~~
-
-**--Project_by [社会易姐QwQ](https://space.bilibili.com/293793435)**
 
 # 相关协议基础
 
