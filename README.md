@@ -1,4 +1,4 @@
-<p align="center">
+<!--<p align="center">
     <img src="imgs/Mylogo.png" width="250" height="200">
 </p>
 <h1 align="center">哔哩哔哩-API收集整理</h1>
@@ -29,13 +29,13 @@ PS：所有http协议地址均可使用https，文档中为了统一写作`http`
 小小的Demo：~~av583785685~~[视频失效原因](https://shakaianee.top/archives/56/)（[Youtube备链](https://www.youtube.com/watch?v=nfF91Z6fqGk)）
 
 联动项目：[Hsury/Bilibili-Toolkit](https://github.com/Hsury/Bilibili-Toolkit)
-
+-->
 ---
 
 **声明**：
 
 1. 本项目遵守CC-BY-4.0协议，如需转载请标明作者。
-2. 本项目将永远不会合并到原项目，仅供个人记录。
+2. 由于本项目原作者已将本用户拉黑，因此将永远不会合并到原项目，仅供个人记录。
 
 ---
 
